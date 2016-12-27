@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/}uietnsbootcamp-build...
+[info] Updating {file:/Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/}uietnsbootcamp-build...
 [debug] :: resolving dependencies :: default#uietnsbootcamp-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -8,15 +8,62 @@
 [debug] == resolving dependencies default#uietnsbootcamp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-M15 [compile->default(compile)]
 [info] Resolving io.get-coursier#sbt-coursier;1.0.0-M15 ...
 [debug] sbt-chain: Checking cache for: dependency: io.get-coursier#sbt-coursier;1.0.0-M15 {compile=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: io.get-coursier#sbt-coursier;1.0.0-M15
-[debug] 	found io.get-coursier#sbt-coursier;1.0.0-M15 in sbt-chain
+[info] Resolving io.get-coursier#sbt-coursier;1.0.0-M15 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: io.get-coursier#sbt-coursier;1.0.0-M15 {compile=[default(compile)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/sbt-coursier/scala_2.10/sbt_0.13/1.0.0-M15/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/sbt-coursier/scala_2.10/sbt_0.13/1.0.0-M15/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for io.get-coursier#sbt-coursier;1.0.0-M15
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.get-coursier/sbt-coursier/scala_2.10/sbt_0.13/1.0.0-M15/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.get-coursier/sbt-coursier/scala_2.10/sbt_0.13/1.0.0-M15/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for io.get-coursier#sbt-coursier;1.0.0-M15
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/io.get-coursier/sbt-coursier/scala_2.10/sbt_0.13/1.0.0-M15/ivys/ivy.xml
+[debug] 	local: no ivy file found for io.get-coursier#sbt-coursier;1.0.0-M15
+[debug] 		tried https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.10_0.13/1.0.0-M15/sbt-coursier-1.0.0-M15.pom
+[debug] 	public: found md file for io.get-coursier#sbt-coursier;1.0.0-M15
+[debug] 		=> https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.10_0.13/1.0.0-M15/sbt-coursier-1.0.0-M15.pom (1.0.0-M15)
+[debug] downloading https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.10_0.13/1.0.0-M15/sbt-coursier-1.0.0-M15.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.10_0.13/1.0.0-M15/sbt-coursier-1.0.0-M15.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.10_0.13/1.0.0-M15/sbt-coursier-1.0.0-M15.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.10_0.13/1.0.0-M15/sbt-coursier-1.0.0-M15.pom
+[debug] 	[SUCCESSFUL ] io.get-coursier#sbt-coursier;1.0.0-M15!sbt-coursier.pom(pom.original) (961ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/sbt-coursier/1.0.0-M15/jars/sbt-coursier.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/sbt-coursier/1.0.0-M15/jars/sbt-coursier.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.get-coursier/sbt-coursier/1.0.0-M15/jars/sbt-coursier.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.get-coursier/sbt-coursier/1.0.0-M15/jars/sbt-coursier.jar
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/io.get-coursier/sbt-coursier/1.0.0-M15/jars/sbt-coursier.jar
+[debug] 		tried https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier/1.0.0-M15/sbt-coursier-1.0.0-M15.jar
+[debug] CLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier/1.0.0-M15/sbt-coursier-1.0.0-M15.jar
+[debug] 	found io.get-coursier#sbt-coursier;1.0.0-M15 in public
 [debug] == resolving dependencies default#uietnsbootcamp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-M15 [compile->runtime]
 [debug] == resolving dependencies default#uietnsbootcamp-build;0.1-SNAPSHOT->io.get-coursier#sbt-coursier;1.0.0-M15 [compile->compile]
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-M15->io.get-coursier#coursier_2.10;1.0.0-M15 [compile->master(compile)]
 [info] Resolving io.get-coursier#coursier_2.10;1.0.0-M15 ...
 [debug] sbt-chain: Checking cache for: dependency: io.get-coursier#coursier_2.10;1.0.0-M15 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: io.get-coursier#coursier_2.10;1.0.0-M15
-[debug] 	found io.get-coursier#coursier_2.10;1.0.0-M15 in sbt-chain
+[info] Resolving io.get-coursier#coursier_2.10;1.0.0-M15 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: io.get-coursier#coursier_2.10;1.0.0-M15 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/coursier_2.10/1.0.0-M15/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/coursier_2.10/1.0.0-M15/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for io.get-coursier#coursier_2.10;1.0.0-M15
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.get-coursier/coursier_2.10/1.0.0-M15/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.get-coursier/coursier_2.10/1.0.0-M15/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for io.get-coursier#coursier_2.10;1.0.0-M15
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/io.get-coursier/coursier_2.10/1.0.0-M15/ivys/ivy.xml
+[debug] 	local: no ivy file found for io.get-coursier#coursier_2.10;1.0.0-M15
+[debug] 		tried https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15/coursier_2.10-1.0.0-M15.pom
+[debug] 	public: found md file for io.get-coursier#coursier_2.10;1.0.0-M15
+[debug] 		=> https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15/coursier_2.10-1.0.0-M15.pom (1.0.0-M15)
+[debug] downloading https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15/coursier_2.10-1.0.0-M15.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15/coursier_2.10-1.0.0-M15.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15/coursier_2.10-1.0.0-M15.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15/coursier_2.10-1.0.0-M15.pom
+[debug] 	[SUCCESSFUL ] io.get-coursier#coursier_2.10;1.0.0-M15!coursier_2.10.pom(pom.original) (940ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/coursier_2.10/1.0.0-M15/jars/coursier_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/coursier_2.10/1.0.0-M15/jars/coursier_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.get-coursier/coursier_2.10/1.0.0-M15/jars/coursier_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.get-coursier/coursier_2.10/1.0.0-M15/jars/coursier_2.10.jar
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/io.get-coursier/coursier_2.10/1.0.0-M15/jars/coursier_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15/coursier_2.10-1.0.0-M15.jar
+[debug] 	found io.get-coursier#coursier_2.10;1.0.0-M15 in public
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-M15->io.get-coursier#coursier_2.10;1.0.0-M15 [compile->compile(*)]
 [debug] == resolving dependencies io.get-coursier#coursier_2.10;1.0.0-M15->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.6 ...
@@ -28,32 +75,124 @@
 [debug] == resolving dependencies io.get-coursier#coursier_2.10;1.0.0-M15->org.scalaz#scalaz-core_2.10;7.2.7 [compile->master(compile)]
 [info] Resolving org.scalaz#scalaz-core_2.10;7.2.7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-core_2.10;7.2.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-core_2.10;7.2.7
-[debug] 	found org.scalaz#scalaz-core_2.10;7.2.7 in sbt-chain
+[info] Resolving org.scalaz#scalaz-core_2.10;7.2.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalaz#scalaz-core_2.10;7.2.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.10/7.2.7/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.10/7.2.7/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.scalaz#scalaz-core_2.10;7.2.7
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.10/7.2.7/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.10/7.2.7/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.scalaz#scalaz-core_2.10;7.2.7
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/org.scalaz/scalaz-core_2.10/7.2.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalaz#scalaz-core_2.10;7.2.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.pom
+[debug] 	public: found md file for org.scalaz#scalaz-core_2.10;7.2.7
+[debug] 		=> https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.pom (7.2.7)
+[debug] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.pom
+[debug] 	[SUCCESSFUL ] org.scalaz#scalaz-core_2.10;7.2.7!scalaz-core_2.10.pom(pom.original) (924ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.10/7.2.7/bundles/scalaz-core_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-core_2.10/7.2.7/bundles/scalaz-core_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.10/7.2.7/bundles/scalaz-core_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-core_2.10/7.2.7/bundles/scalaz-core_2.10.jar
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/org.scalaz/scalaz-core_2.10/7.2.7/bundles/scalaz-core_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.jar
+[debug] 	found org.scalaz#scalaz-core_2.10;7.2.7 in public
 [debug] == resolving dependencies io.get-coursier#coursier_2.10;1.0.0-M15->org.scalaz#scalaz-core_2.10;7.2.7 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.2.7->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaz#scalaz-core_2.10;7.2.7->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
 [debug] == resolving dependencies io.get-coursier#coursier_2.10;1.0.0-M15->com.lihaoyi#fastparse_2.10;0.4.2 [compile->master(compile)]
 [info] Resolving com.lihaoyi#fastparse_2.10;0.4.2 ...
 [debug] sbt-chain: Checking cache for: dependency: com.lihaoyi#fastparse_2.10;0.4.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.lihaoyi#fastparse_2.10;0.4.2
-[debug] 	found com.lihaoyi#fastparse_2.10;0.4.2 in sbt-chain
+[info] Resolving com.lihaoyi#fastparse_2.10;0.4.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.lihaoyi#fastparse_2.10;0.4.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lihaoyi/fastparse_2.10/0.4.2/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lihaoyi/fastparse_2.10/0.4.2/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for com.lihaoyi#fastparse_2.10;0.4.2
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lihaoyi/fastparse_2.10/0.4.2/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lihaoyi/fastparse_2.10/0.4.2/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for com.lihaoyi#fastparse_2.10;0.4.2
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/com.lihaoyi/fastparse_2.10/0.4.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.lihaoyi#fastparse_2.10;0.4.2
+[debug] 		tried https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.pom
+[debug] 	public: found md file for com.lihaoyi#fastparse_2.10;0.4.2
+[debug] 		=> https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.pom (0.4.2)
+[debug] downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.pom
+[debug] 	[SUCCESSFUL ] com.lihaoyi#fastparse_2.10;0.4.2!fastparse_2.10.pom(pom.original) (917ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lihaoyi/fastparse_2.10/0.4.2/jars/fastparse_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lihaoyi/fastparse_2.10/0.4.2/jars/fastparse_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lihaoyi/fastparse_2.10/0.4.2/jars/fastparse_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lihaoyi/fastparse_2.10/0.4.2/jars/fastparse_2.10.jar
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/com.lihaoyi/fastparse_2.10/0.4.2/jars/fastparse_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.jar
+[debug] 	found com.lihaoyi#fastparse_2.10;0.4.2 in public
 [debug] == resolving dependencies io.get-coursier#coursier_2.10;1.0.0-M15->com.lihaoyi#fastparse_2.10;0.4.2 [compile->compile(*)]
 [debug] == resolving dependencies com.lihaoyi#fastparse_2.10;0.4.2->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
 [debug] == resolving dependencies com.lihaoyi#fastparse_2.10;0.4.2->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
 [debug] == resolving dependencies com.lihaoyi#fastparse_2.10;0.4.2->com.lihaoyi#fastparse-utils_2.10;0.4.2 [compile->master(compile)]
 [info] Resolving com.lihaoyi#fastparse-utils_2.10;0.4.2 ...
 [debug] sbt-chain: Checking cache for: dependency: com.lihaoyi#fastparse-utils_2.10;0.4.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.lihaoyi#fastparse-utils_2.10;0.4.2
-[debug] 	found com.lihaoyi#fastparse-utils_2.10;0.4.2 in sbt-chain
+[info] Resolving com.lihaoyi#fastparse-utils_2.10;0.4.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.lihaoyi#fastparse-utils_2.10;0.4.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lihaoyi/fastparse-utils_2.10/0.4.2/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lihaoyi/fastparse-utils_2.10/0.4.2/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for com.lihaoyi#fastparse-utils_2.10;0.4.2
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lihaoyi/fastparse-utils_2.10/0.4.2/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lihaoyi/fastparse-utils_2.10/0.4.2/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for com.lihaoyi#fastparse-utils_2.10;0.4.2
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/com.lihaoyi/fastparse-utils_2.10/0.4.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.lihaoyi#fastparse-utils_2.10;0.4.2
+[debug] 		tried https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.pom
+[debug] 	public: found md file for com.lihaoyi#fastparse-utils_2.10;0.4.2
+[debug] 		=> https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.pom (0.4.2)
+[debug] downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.pom
+[debug] 	[SUCCESSFUL ] com.lihaoyi#fastparse-utils_2.10;0.4.2!fastparse-utils_2.10.pom(pom.original) (914ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lihaoyi/fastparse-utils_2.10/0.4.2/jars/fastparse-utils_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lihaoyi/fastparse-utils_2.10/0.4.2/jars/fastparse-utils_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lihaoyi/fastparse-utils_2.10/0.4.2/jars/fastparse-utils_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lihaoyi/fastparse-utils_2.10/0.4.2/jars/fastparse-utils_2.10.jar
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/com.lihaoyi/fastparse-utils_2.10/0.4.2/jars/fastparse-utils_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.jar
+[debug] 	found com.lihaoyi#fastparse-utils_2.10;0.4.2 in public
 [debug] == resolving dependencies com.lihaoyi#fastparse_2.10;0.4.2->com.lihaoyi#fastparse-utils_2.10;0.4.2 [compile->compile(*)]
 [debug] == resolving dependencies com.lihaoyi#fastparse-utils_2.10;0.4.2->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
 [debug] == resolving dependencies com.lihaoyi#fastparse-utils_2.10;0.4.2->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
 [debug] == resolving dependencies com.lihaoyi#fastparse-utils_2.10;0.4.2->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->master(compile)]
 [info] Resolving org.scalamacros#quasiquotes_2.10;2.1.0 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalamacros#quasiquotes_2.10;2.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scalamacros#quasiquotes_2.10;2.1.0
-[debug] 	found org.scalamacros#quasiquotes_2.10;2.1.0 in sbt-chain
+[info] Resolving org.scalamacros#quasiquotes_2.10;2.1.0 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalamacros#quasiquotes_2.10;2.1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalamacros/quasiquotes_2.10/2.1.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalamacros/quasiquotes_2.10/2.1.0/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.scalamacros#quasiquotes_2.10;2.1.0
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalamacros/quasiquotes_2.10/2.1.0/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalamacros/quasiquotes_2.10/2.1.0/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.scalamacros#quasiquotes_2.10;2.1.0
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/org.scalamacros/quasiquotes_2.10/2.1.0/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalamacros#quasiquotes_2.10;2.1.0
+[debug] 		tried https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.pom
+[debug] 	public: found md file for org.scalamacros#quasiquotes_2.10;2.1.0
+[debug] 		=> https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.pom (2.1.0)
+[debug] downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.pom
+[debug] 	[SUCCESSFUL ] org.scalamacros#quasiquotes_2.10;2.1.0!quasiquotes_2.10.pom(pom.original) (915ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalamacros/quasiquotes_2.10/2.1.0/jars/quasiquotes_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalamacros/quasiquotes_2.10/2.1.0/jars/quasiquotes_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalamacros/quasiquotes_2.10/2.1.0/jars/quasiquotes_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalamacros/quasiquotes_2.10/2.1.0/jars/quasiquotes_2.10.jar
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/org.scalamacros/quasiquotes_2.10/2.1.0/jars/quasiquotes_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.jar
+[debug] 	found org.scalamacros#quasiquotes_2.10;2.1.0 in public
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.10.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies com.lihaoyi#fastparse-utils_2.10;0.4.2->org.scalamacros#quasiquotes_2.10;2.1.0 [compile->compile(*)]
@@ -89,8 +228,31 @@
 [debug] == resolving dependencies com.lihaoyi#fastparse-utils_2.10;0.4.2->com.lihaoyi#sourcecode_2.10;0.1.3 [compile->master(compile)]
 [info] Resolving com.lihaoyi#sourcecode_2.10;0.1.3 ...
 [debug] sbt-chain: Checking cache for: dependency: com.lihaoyi#sourcecode_2.10;0.1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: com.lihaoyi#sourcecode_2.10;0.1.3
-[debug] 	found com.lihaoyi#sourcecode_2.10;0.1.3 in sbt-chain
+[info] Resolving com.lihaoyi#sourcecode_2.10;0.1.3 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: com.lihaoyi#sourcecode_2.10;0.1.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lihaoyi/sourcecode_2.10/0.1.3/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lihaoyi/sourcecode_2.10/0.1.3/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for com.lihaoyi#sourcecode_2.10;0.1.3
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lihaoyi/sourcecode_2.10/0.1.3/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lihaoyi/sourcecode_2.10/0.1.3/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for com.lihaoyi#sourcecode_2.10;0.1.3
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/com.lihaoyi/sourcecode_2.10/0.1.3/ivys/ivy.xml
+[debug] 	local: no ivy file found for com.lihaoyi#sourcecode_2.10;0.1.3
+[debug] 		tried https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.pom
+[debug] 	public: found md file for com.lihaoyi#sourcecode_2.10;0.1.3
+[debug] 		=> https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.pom (0.1.3)
+[debug] downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.pom
+[debug] 	[SUCCESSFUL ] com.lihaoyi#sourcecode_2.10;0.1.3!sourcecode_2.10.pom(pom.original) (912ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/com.lihaoyi/sourcecode_2.10/0.1.3/jars/sourcecode_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/com.lihaoyi/sourcecode_2.10/0.1.3/jars/sourcecode_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lihaoyi/sourcecode_2.10/0.1.3/jars/sourcecode_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.lihaoyi/sourcecode_2.10/0.1.3/jars/sourcecode_2.10.jar
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/com.lihaoyi/sourcecode_2.10/0.1.3/jars/sourcecode_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.jar
+[debug] 	found com.lihaoyi#sourcecode_2.10;0.1.3 in public
 [debug] == resolving dependencies com.lihaoyi#fastparse-utils_2.10;0.4.2->com.lihaoyi#sourcecode_2.10;0.1.3 [compile->compile(*)]
 [debug] == resolving dependencies com.lihaoyi#sourcecode_2.10;0.1.3->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
 [debug] == resolving dependencies com.lihaoyi#sourcecode_2.10;0.1.3->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
@@ -103,8 +265,31 @@
 [debug] == resolving dependencies io.get-coursier#coursier_2.10;1.0.0-M15->org.jsoup#jsoup;1.9.2 [compile->master(compile)]
 [info] Resolving org.jsoup#jsoup;1.9.2 ...
 [debug] sbt-chain: Checking cache for: dependency: org.jsoup#jsoup;1.9.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.jsoup#jsoup;1.9.2
-[debug] 	found org.jsoup#jsoup;1.9.2 in sbt-chain
+[info] Resolving org.jsoup#jsoup;1.9.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.jsoup#jsoup;1.9.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.jsoup/jsoup/1.9.2/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.jsoup/jsoup/1.9.2/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.jsoup#jsoup;1.9.2
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jsoup/jsoup/1.9.2/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jsoup/jsoup/1.9.2/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.jsoup#jsoup;1.9.2
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/org.jsoup/jsoup/1.9.2/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.jsoup#jsoup;1.9.2
+[debug] 		tried https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom
+[debug] 	public: found md file for org.jsoup#jsoup;1.9.2
+[debug] 		=> https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom (1.9.2)
+[debug] downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.pom
+[debug] 	[SUCCESSFUL ] org.jsoup#jsoup;1.9.2!jsoup.pom(pom.original) (945ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.jsoup/jsoup/1.9.2/jars/jsoup.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.jsoup/jsoup/1.9.2/jars/jsoup.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jsoup/jsoup/1.9.2/jars/jsoup.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.jsoup/jsoup/1.9.2/jars/jsoup.jar
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/org.jsoup/jsoup/1.9.2/jars/jsoup.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar
+[debug] 	found org.jsoup#jsoup;1.9.2 in public
 [debug] == resolving dependencies io.get-coursier#coursier_2.10;1.0.0-M15->org.jsoup#jsoup;1.9.2 [compile->compile(*)]
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-M15->io.get-coursier#coursier_2.10;1.0.0-M15 [compile->runtime(*)]
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-M15->io.get-coursier#coursier_2.10;1.0.0-M15 [compile->compile]
@@ -147,8 +332,31 @@
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-M15->io.get-coursier#coursier-cache_2.10;1.0.0-M15 [compile->master(compile)]
 [info] Resolving io.get-coursier#coursier-cache_2.10;1.0.0-M15 ...
 [debug] sbt-chain: Checking cache for: dependency: io.get-coursier#coursier-cache_2.10;1.0.0-M15 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: io.get-coursier#coursier-cache_2.10;1.0.0-M15
-[debug] 	found io.get-coursier#coursier-cache_2.10;1.0.0-M15 in sbt-chain
+[info] Resolving io.get-coursier#coursier-cache_2.10;1.0.0-M15 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: io.get-coursier#coursier-cache_2.10;1.0.0-M15 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/coursier-cache_2.10/1.0.0-M15/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/coursier-cache_2.10/1.0.0-M15/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for io.get-coursier#coursier-cache_2.10;1.0.0-M15
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.get-coursier/coursier-cache_2.10/1.0.0-M15/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.get-coursier/coursier-cache_2.10/1.0.0-M15/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for io.get-coursier#coursier-cache_2.10;1.0.0-M15
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/io.get-coursier/coursier-cache_2.10/1.0.0-M15/ivys/ivy.xml
+[debug] 	local: no ivy file found for io.get-coursier#coursier-cache_2.10;1.0.0-M15
+[debug] 		tried https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15/coursier-cache_2.10-1.0.0-M15.pom
+[debug] 	public: found md file for io.get-coursier#coursier-cache_2.10;1.0.0-M15
+[debug] 		=> https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15/coursier-cache_2.10-1.0.0-M15.pom (1.0.0-M15)
+[debug] downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15/coursier-cache_2.10-1.0.0-M15.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15/coursier-cache_2.10-1.0.0-M15.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15/coursier-cache_2.10-1.0.0-M15.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15/coursier-cache_2.10-1.0.0-M15.pom
+[debug] 	[SUCCESSFUL ] io.get-coursier#coursier-cache_2.10;1.0.0-M15!coursier-cache_2.10.pom(pom.original) (912ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/coursier-cache_2.10/1.0.0-M15/jars/coursier-cache_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/io.get-coursier/coursier-cache_2.10/1.0.0-M15/jars/coursier-cache_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.get-coursier/coursier-cache_2.10/1.0.0-M15/jars/coursier-cache_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/io.get-coursier/coursier-cache_2.10/1.0.0-M15/jars/coursier-cache_2.10.jar
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/io.get-coursier/coursier-cache_2.10/1.0.0-M15/jars/coursier-cache_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15/coursier-cache_2.10-1.0.0-M15.jar
+[debug] 	found io.get-coursier#coursier-cache_2.10;1.0.0-M15 in public
 [debug] == resolving dependencies io.get-coursier#sbt-coursier;1.0.0-M15->io.get-coursier#coursier-cache_2.10;1.0.0-M15 [compile->compile(*)]
 [debug] == resolving dependencies io.get-coursier#coursier-cache_2.10;1.0.0-M15->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
 [debug] == resolving dependencies io.get-coursier#coursier-cache_2.10;1.0.0-M15->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
@@ -157,8 +365,31 @@
 [debug] == resolving dependencies io.get-coursier#coursier-cache_2.10;1.0.0-M15->org.scalaz#scalaz-concurrent_2.10;7.2.7 [compile->master(compile)]
 [info] Resolving org.scalaz#scalaz-concurrent_2.10;7.2.7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-concurrent_2.10;7.2.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-concurrent_2.10;7.2.7
-[debug] 	found org.scalaz#scalaz-concurrent_2.10;7.2.7 in sbt-chain
+[info] Resolving org.scalaz#scalaz-concurrent_2.10;7.2.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalaz#scalaz-concurrent_2.10;7.2.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-concurrent_2.10/7.2.7/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-concurrent_2.10/7.2.7/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.scalaz#scalaz-concurrent_2.10;7.2.7
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-concurrent_2.10/7.2.7/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-concurrent_2.10/7.2.7/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.scalaz#scalaz-concurrent_2.10;7.2.7
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/org.scalaz/scalaz-concurrent_2.10/7.2.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalaz#scalaz-concurrent_2.10;7.2.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.pom
+[debug] 	public: found md file for org.scalaz#scalaz-concurrent_2.10;7.2.7
+[debug] 		=> https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.pom (7.2.7)
+[debug] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.pom
+[debug] 	[SUCCESSFUL ] org.scalaz#scalaz-concurrent_2.10;7.2.7!scalaz-concurrent_2.10.pom(pom.original) (918ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-concurrent_2.10/7.2.7/bundles/scalaz-concurrent_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-concurrent_2.10/7.2.7/bundles/scalaz-concurrent_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-concurrent_2.10/7.2.7/bundles/scalaz-concurrent_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-concurrent_2.10/7.2.7/bundles/scalaz-concurrent_2.10.jar
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/org.scalaz/scalaz-concurrent_2.10/7.2.7/bundles/scalaz-concurrent_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.jar
+[debug] 	found org.scalaz#scalaz-concurrent_2.10;7.2.7 in public
 [debug] == resolving dependencies io.get-coursier#coursier-cache_2.10;1.0.0-M15->org.scalaz#scalaz-concurrent_2.10;7.2.7 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.2.7->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.2.7->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
@@ -167,8 +398,31 @@
 [debug] == resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.2.7->org.scalaz#scalaz-effect_2.10;7.2.7 [compile->master(compile)]
 [info] Resolving org.scalaz#scalaz-effect_2.10;7.2.7 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scalaz#scalaz-effect_2.10;7.2.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scalaz#scalaz-effect_2.10;7.2.7
-[debug] 	found org.scalaz#scalaz-effect_2.10;7.2.7 in sbt-chain
+[info] Resolving org.scalaz#scalaz-effect_2.10;7.2.7 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: org.scalaz#scalaz-effect_2.10;7.2.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-effect_2.10/7.2.7/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-effect_2.10/7.2.7/ivys/ivy.xml
+[debug] 	typesafe-ivy-releases: no ivy file found for org.scalaz#scalaz-effect_2.10;7.2.7
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-effect_2.10/7.2.7/ivys/ivy.xml
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-effect_2.10/7.2.7/ivys/ivy.xml
+[debug] 	sbt-plugin-releases: no ivy file found for org.scalaz#scalaz-effect_2.10;7.2.7
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/org.scalaz/scalaz-effect_2.10/7.2.7/ivys/ivy.xml
+[debug] 	local: no ivy file found for org.scalaz#scalaz-effect_2.10;7.2.7
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.pom
+[debug] 	public: found md file for org.scalaz#scalaz-effect_2.10;7.2.7
+[debug] 		=> https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.pom (7.2.7)
+[debug] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.pom
+[debug] 	[SUCCESSFUL ] org.scalaz#scalaz-effect_2.10;7.2.7!scalaz-effect_2.10.pom(pom.original) (920ms)
+[debug] 		tried https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-effect_2.10/7.2.7/bundles/scalaz-effect_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.typesafe.com/typesafe/ivy-releases/org.scalaz/scalaz-effect_2.10/7.2.7/bundles/scalaz-effect_2.10.jar
+[debug] 		tried https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-effect_2.10/7.2.7/bundles/scalaz-effect_2.10.jar
+[debug] CLIENT ERROR: Not Found url=https://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/org.scalaz/scalaz-effect_2.10/7.2.7/bundles/scalaz-effect_2.10.jar
+[debug] 		tried /Users/gaurav.malhotra/.ivy2/local/org.scalaz/scalaz-effect_2.10/7.2.7/bundles/scalaz-effect_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.jar
+[debug] 	found org.scalaz#scalaz-effect_2.10;7.2.7 in public
 [debug] == resolving dependencies org.scalaz#scalaz-concurrent_2.10;7.2.7->org.scalaz#scalaz-effect_2.10;7.2.7 [compile->compile(*)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.7->org.scala-lang#scala-library;2.10.6 [compile->master(compile)]
 [debug] == resolving dependencies org.scalaz#scalaz-effect_2.10;7.2.7->org.scala-lang#scala-library;2.10.6 [compile->compile(*)]
@@ -2954,19 +3208,74 @@
 [debug] == resolving dependencies default#uietnsbootcamp-build;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional(default)]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] io.get-coursier#sbt-coursier;1.0.0-M15!sbt-coursier.jar
-[debug] 	[NOT REQUIRED] io.get-coursier#coursier_2.10;1.0.0-M15!coursier_2.10.jar
-[debug] 	[NOT REQUIRED] io.get-coursier#coursier-cache_2.10;1.0.0-M15!coursier-cache_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.10_0.13/1.0.0-M15/sbt-coursier-1.0.0-M15.jar
+[info] downloading https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.10_0.13/1.0.0-M15/sbt-coursier-1.0.0-M15.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.10_0.13/1.0.0-M15/sbt-coursier-1.0.0-M15.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.10_0.13/1.0.0-M15/sbt-coursier-1.0.0-M15.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.10_0.13/1.0.0-M15/sbt-coursier-1.0.0-M15.jar
+[info] 	[SUCCESSFUL ] io.get-coursier#sbt-coursier;1.0.0-M15!sbt-coursier.jar (2298ms)
+[debug] 		tried https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15/coursier_2.10-1.0.0-M15.jar
+[info] downloading https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15/coursier_2.10-1.0.0-M15.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15/coursier_2.10-1.0.0-M15.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15/coursier_2.10-1.0.0-M15.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/get-coursier/coursier_2.10/1.0.0-M15/coursier_2.10-1.0.0-M15.jar
+[info] 	[SUCCESSFUL ] io.get-coursier#coursier_2.10;1.0.0-M15!coursier_2.10.jar (1695ms)
+[debug] 		tried https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15/coursier-cache_2.10-1.0.0-M15.jar
+[info] downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15/coursier-cache_2.10-1.0.0-M15.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15/coursier-cache_2.10-1.0.0-M15.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15/coursier-cache_2.10-1.0.0-M15.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.10/1.0.0-M15/coursier-cache_2.10-1.0.0-M15.jar
+[info] 	[SUCCESSFUL ] io.get-coursier#coursier-cache_2.10;1.0.0-M15!coursier-cache_2.10.jar (1073ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scalaz#scalaz-core_2.10;7.2.7!scalaz-core_2.10.jar(bundle)
-[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse_2.10;0.4.2!fastparse_2.10.jar
-[debug] 	[NOT REQUIRED] org.jsoup#jsoup;1.9.2!jsoup.jar
-[debug] 	[NOT REQUIRED] com.lihaoyi#fastparse-utils_2.10;0.4.2!fastparse-utils_2.10.jar
-[debug] 	[NOT REQUIRED] org.scalamacros#quasiquotes_2.10;2.1.0!quasiquotes_2.10.jar
-[debug] 	[NOT REQUIRED] com.lihaoyi#sourcecode_2.10;0.1.3!sourcecode_2.10.jar
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.10/7.2.7/scalaz-core_2.10-7.2.7.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-core_2.10;7.2.7!scalaz-core_2.10.jar(bundle) (3461ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.jar
+[info] downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.10/0.4.2/fastparse_2.10-0.4.2.jar
+[info] 	[SUCCESSFUL ] com.lihaoyi#fastparse_2.10;0.4.2!fastparse_2.10.jar (964ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar
+[info] downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/jsoup/jsoup/1.9.2/jsoup-1.9.2.jar
+[info] 	[SUCCESSFUL ] org.jsoup#jsoup;1.9.2!jsoup.jar (963ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.jar
+[info] downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.10/0.4.2/fastparse-utils_2.10-0.4.2.jar
+[info] 	[SUCCESSFUL ] com.lihaoyi#fastparse-utils_2.10;0.4.2!fastparse-utils_2.10.jar (915ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalamacros/quasiquotes_2.10/2.1.0/quasiquotes_2.10-2.1.0.jar
+[info] 	[SUCCESSFUL ] org.scalamacros#quasiquotes_2.10;2.1.0!quasiquotes_2.10.jar (982ms)
+[debug] 		tried https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.jar
+[info] downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.10/0.1.3/sourcecode_2.10-0.1.3.jar
+[info] 	[SUCCESSFUL ] com.lihaoyi#sourcecode_2.10;0.1.3!sourcecode_2.10.jar (973ms)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scalaz#scalaz-concurrent_2.10;7.2.7!scalaz-concurrent_2.10.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scalaz#scalaz-effect_2.10;7.2.7!scalaz-effect_2.10.jar(bundle)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.10/7.2.7/scalaz-concurrent_2.10-7.2.7.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-concurrent_2.10;7.2.7!scalaz-concurrent_2.10.jar(bundle) (973ms)
+[debug] 		tried https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.jar
+[info] downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.10/7.2.7/scalaz-effect_2.10-7.2.7.jar
+[info] 	[SUCCESSFUL ] org.scalaz#scalaz-effect_2.10;7.2.7!scalaz-effect_2.10.jar(bundle) (980ms)
 [debug] 	[NOT REQUIRED] org.scala-sbt#sbt;0.13.11!sbt.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#main;0.13.11!main.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#compiler-interface;0.13.11!compiler-interface.jar
@@ -3018,19 +3327,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.11!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 1440ms :: artifacts dl 50ms
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT compile produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-compile.xml
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT runtime produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-runtime.xml
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT test produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-test.xml
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT provided produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-provided.xml
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT optional produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-optional.xml
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT compile-internal produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-compile-internal.xml
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT runtime-internal produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-runtime-internal.xml
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT test-internal produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-test-internal.xml
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT plugin produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-plugin.xml
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT sources produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-sources.xml
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT docs produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-docs.xml
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT pom produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-pom.xml
-[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT scala-tool produced in /Users/ayan.ghatak/IdeaProjects/untitled/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-scala-tool.xml
-[debug] 	resolve done (1440ms resolve - 50ms download)
+[debug] :: resolution report :: resolve 68663ms :: artifacts dl 15321ms
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT compile produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-compile.xml
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT runtime produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-runtime.xml
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT test produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-test.xml
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT provided produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-provided.xml
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT optional produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-optional.xml
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT compile-internal produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-compile-internal.xml
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT runtime-internal produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-runtime-internal.xml
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT test-internal produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-test-internal.xml
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT plugin produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-plugin.xml
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT sources produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-sources.xml
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT docs produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-docs.xml
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT pom produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-pom.xml
+[debug] 	report for default#uietnsbootcamp-build;0.1-SNAPSHOT scala-tool produced in /Users/gaurav.malhotra/Desktop/UIETNSBootcamp/project/target/resolution-cache/reports/default-uietnsbootcamp-build-scala-tool.xml
+[debug] 	resolve done (68663ms resolve - 15321ms download)
 [info] Done updating.

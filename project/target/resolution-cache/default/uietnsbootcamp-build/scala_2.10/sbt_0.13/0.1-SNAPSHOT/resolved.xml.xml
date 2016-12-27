@@ -4,7 +4,7 @@
 		module="uietnsbootcamp-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20161226164718"
+		publication="20161227121006"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
